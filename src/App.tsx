@@ -1,4 +1,5 @@
 import { Routes, Route } from 'react-router-dom';
+import Layout from './components/layout/Layout';
 import Home from './pages/Home';
 import Portfolio from './pages/Portfolio';
 import FamilyPhotography from './pages/services/FamilyPhotography';
@@ -12,15 +13,17 @@ import Contact from './pages/Contact';
 export default function App() {
   return (
     <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/portfolio" element={<Portfolio />} />
-      <Route path="/gimenu-fotosesijas" element={<FamilyPhotography />} />
-      <Route path="/paru-fotosesijas" element={<CouplePhotography />} />
-      <Route path="/portretu-fotosesijas" element={<PortraitPhotography />} />
-      <Route path="/kazu-fotografija" element={<WeddingPhotography />} />
-      <Route path="/par-mani" element={<About />} />
-      <Route path="/atsauksmes" element={<Testimonials />} />
-      <Route path="/sazinaties" element={<Contact />} />
+      <Route element={<Layout />}>
+        <Route path="/" element={<Home />} />
+        <Route path="/portfolio" element={<Portfolio />} />
+        <Route path="/gimenu-fotosesijas" element={<FamilyPhotography />} />
+        <Route path="/paru-fotosesijas" element={<CouplePhotography />} />
+        <Route path="/portretu-fotosesijas" element={<PortraitPhotography />} />
+        <Route path="/kazu-fotografija" element={<WeddingPhotography />} />
+        <Route path="/par-mani" element={<About />} />
+        <Route path="/atsauksmes" element={<Testimonials />} />
+        <Route path="/sazinaties" element={<Contact />} />
+      </Route>
     </Routes>
   );
 }
