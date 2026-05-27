@@ -22,3 +22,13 @@ Push to `main` -> Vercel auto-deploys.
 ## Spec
 
 See `docs/superpowers/specs/2026-05-27-website-design.md`.
+
+## Image optimization
+
+Place originals in `raw-images/<category>/file.jpg`. Then:
+
+```bash
+npm run optimize:images
+```
+
+Outputs `public/images/<category>/file-{320,768,1440}w.{avif,webp,jpg}`.
