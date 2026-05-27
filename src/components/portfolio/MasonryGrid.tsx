@@ -21,7 +21,6 @@ export default function MasonryGrid({ images, onClick }: Props) {
               <Image
                 src={img.src}
                 alt={img.alt}
-                aspectRatio={img.aspectRatio}
                 sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                 className="block transition-transform duration-700 group-hover:scale-105"
               />

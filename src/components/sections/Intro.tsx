@@ -10,8 +10,7 @@ export default function Intro() {
             Es ticu, ka labākās bildes rodas tad, kad cilvēki aizmirst, ka viņus fotografē
           </h2>
           <p className="text-text-secondary leading-relaxed">
-            PLACEHOLDER - īss intro ~80 vārdu par sievas pieeju, filozofiju, ko klients var sagaidīt.
-            Sievai jāpievieno pirms launch.
+            Es nelikšu tev stāvēt un smaidīt. Tā vietā mēs pastaigāsimies, parunāsimies, pasmiesimies - un kādā brīdī tu aizmirsīsi, ka esmu ar kameru. Tieši tur sākas mans labākais darbs. Mana pieeja ir vienkārša: es vēlos, lai tu bildēs izskatītos kā tu, nevis kāds cits. Dabisks. Patiess. Bez maskas. Tieši tādas bildes tu gribēsi rādīt vēl pēc desmit gadiem.
           </p>
           <p className="mt-8 font-serif italic text-text-secondary">
             - Daugaviete Photography

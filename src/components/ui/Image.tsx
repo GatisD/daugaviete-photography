@@ -8,6 +8,9 @@ interface ImageProps {
 }
 
 export default function Image({ src, alt, className, loading = 'lazy', sizes = '100vw', aspectRatio }: ImageProps) {
+  // When aspectRatio is provided, force the ratio with object-cover (intentional crop for grid layouts).
+  // When omitted, render at natural ratio - critical for masonry/portfolio where vertical stays vertical, horizontal stays horizontal.
+  const imgClass = aspectRatio ? 'w-full h-full object-cover' : 'w-full h-auto block';
   return (
     <picture className={className} style={aspectRatio ? { aspectRatio } : undefined}>
       <source
@@ -25,7 +28,7 @@ export default function Image({ src, alt, className, loading = 'lazy', sizes = '
         alt={alt}
         loading={loading}
         decoding="async"
-        className="w-full h-full object-cover"
+        className={imgClass}
       />
     </picture>
   );

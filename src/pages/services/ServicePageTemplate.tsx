@@ -60,7 +60,6 @@ export default function ServicePageTemplate({ service }: Props) {
               <Image
                 src={images[0].src}
                 alt={images[0].alt}
-                aspectRatio={images[0].aspectRatio}
                 sizes="(max-width: 768px) 100vw, 50vw"
               />
             )}
@@ -71,17 +70,18 @@ export default function ServicePageTemplate({ service }: Props) {
       {images.length > 1 && (
         <section className="py-22 bg-bg-primary">
           <div className="container-app">
-            <div className="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-6">
+            <div className="columns-2 md:columns-3 gap-4 md:gap-6">
               {images.slice(1).map((img, i) => (
-                <ImageReveal key={img.id} delay={i * 0.05}>
-                  <Image
-                    src={img.src}
-                    alt={img.alt}
-                    aspectRatio={img.aspectRatio}
-                    sizes="(max-width: 768px) 50vw, 33vw"
-                    className="block"
-                  />
-                </ImageReveal>
+                <div key={img.id} className="mb-4 md:mb-6 break-inside-avoid">
+                  <ImageReveal delay={(i % 6) * 0.05}>
+                    <Image
+                      src={img.src}
+                      alt={img.alt}
+                      sizes="(max-width: 768px) 50vw, 33vw"
+                      className="block"
+                    />
+                  </ImageReveal>
+                </div>
               ))}
             </div>
           </div>
