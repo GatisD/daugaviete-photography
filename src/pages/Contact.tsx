@@ -7,7 +7,7 @@ const contact = {
   email: 'sieva@daugavietephotography.com',
   phone: '+371 00 000 000',
   instagram: 'daugavietephotography',
-  location: 'Riga, Latvija',
+  location: 'Rīga, Latvija',
 };
 
 const InstagramIcon = ({ size = 18 }: { size?: number }) => (
@@ -24,10 +24,10 @@ export default function Contact() {
       />
       <section className="pt-12 pb-12 bg-bg-primary text-center">
         <div className="container-app">
-          <p className="text-xs tracking-widest text-accent-gold mb-4">SAZINATIES</p>
-          <h1 className="text-h1 font-serif font-light">Veidosim kopa skaisto</h1>
+          <p className="text-xs tracking-widest text-accent-gold mb-4">SAZINĀTIES</p>
+          <h1 className="text-h1 font-serif font-light">Veidosim kopā skaisto</h1>
           <p className="mt-6 text-text-secondary max-w-xl mx-auto leading-relaxed">
-            Raksti man vai zvani - apspriedisim tavu ideju, atbildeshu uz visiem jautajumiem.
+            Raksti man vai zvani - apspriedīsim tavu ideju, atbildēšu uz visiem jautājumiem.
           </p>
         </div>
       </section>
@@ -47,7 +47,7 @@ export default function Contact() {
           <ImageReveal delay={0.1}>
             <div>
               <Phone className="mx-auto text-accent-gold mb-4" size={32} />
-              <p className="text-xs tracking-widest text-text-muted mb-2">TALRUNIS</p>
+              <p className="text-xs tracking-widest text-text-muted mb-2">TĀLRUNIS</p>
               <MagneticButton href={`tel:${contact.phone.replace(/\s/g, '')}`} className="font-serif text-3xl md:text-4xl hover:text-accent-gold transition-colors">
                 {contact.phone}
               </MagneticButton>

@@ -13,7 +13,7 @@ export const portfolio: PortfolioImage[] = [
   { id: 'f1', src: '/images/family/01', alt: 'Bērnu fotosesija dabā', category: 'family', aspectRatio: '3/4' },
   { id: 'f2', src: '/images/family/02', alt: 'Skolas klases portrets', category: 'family', aspectRatio: '2/3' },
   { id: 'f3', src: '/images/family/03', alt: 'Bērni dabā - priecīgi mirkļi', category: 'family', aspectRatio: '4/5' },
-  { id: 'f4', src: '/images/family/04', alt: 'Ģimeņu fotosesija ārā', category: 'family', aspectRatio: '3/4' },
+  { id: 'f4', src: '/images/family/04', alt: 'Ģimenes fotosesija ārā', category: 'family', aspectRatio: '3/4' },
   { id: 'f5', src: '/images/family/05', alt: 'Bērnu portrets dabiskā gaismā', category: 'family', aspectRatio: '2/3' },
   { id: 'f6', src: '/images/family/06', alt: 'Jauniešu fotosesija', category: 'family', aspectRatio: '3/4' },
   // couples - 6 items (Sakura session)

@@ -4,21 +4,21 @@ import { Menu, ChevronDown } from 'lucide-react';
 import MobileMenu from './MobileMenu';
 
 const navLinks = [
-  { to: '/', label: 'SAKUMS' },
+  { to: '/', label: 'SĀKUMS' },
   { to: '/portfolio', label: 'PORTFOLIO' },
 ];
 
 const serviceLinks = [
-  { to: '/gimenu-fotosesijas', label: 'Gimenu fotosesijas' },
-  { to: '/paru-fotosesijas', label: 'Paru fotosesijas' },
+  { to: '/gimenu-fotosesijas', label: 'Ģimeņu fotosesijas' },
+  { to: '/paru-fotosesijas', label: 'Pāru fotosesijas' },
   { to: '/portretu-fotosesijas', label: 'Portretu fotosesijas' },
-  { to: '/kazu-fotografija', label: 'Kazu fotografija' },
+  { to: '/kazu-fotografija', label: 'Kāzu fotogrāfija' },
 ];
 
 const tailLinks = [
   { to: '/par-mani', label: 'PAR MANI' },
   { to: '/atsauksmes', label: 'ATSAUKSMES' },
-  { to: '/sazinaties', label: 'SAZINATĪIES' },
+  { to: '/sazinaties', label: 'SAZINĀTIES' },
 ];
 
 export default function Header() {
@@ -98,7 +98,7 @@ export default function Header() {
           <button
             className="lg:hidden"
             onClick={() => setMobileOpen(true)}
-            aria-label="Atvert izvelni"
+            aria-label="Atvērt izvēlni"
           >
             <Menu size={24} />
           </button>

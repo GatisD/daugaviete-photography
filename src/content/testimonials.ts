@@ -9,20 +9,20 @@ export interface Testimonial {
 export const testimonials: Testimonial[] = [
   {
     id: 't1',
-    text: 'PLACEHOLDER - sievai japievieno reala atsauksme. Seit aprakstu, kapec bija lielisks darbs ar fotografu.',
-    author: 'Anna un Janis',
-    serviceType: 'Kazu fotografija',
+    text: 'PLACEHOLDER - sievai jāpievieno reāla atsauksme. Šeit apraksts, kāpēc bija lielisks darbs ar fotogrāfu.',
+    author: 'Anna un Jānis',
+    serviceType: 'Kāzu fotogrāfija',
   },
   {
     id: 't2',
-    text: 'PLACEHOLDER - atsauksme no gimenou sesijas klienta.',
-    author: 'Ieva ar gimeni',
-    serviceType: 'Gimenou fotosesija',
+    text: 'PLACEHOLDER - atsauksme no ģimenes sesijas klienta.',
+    author: 'Ieva ar ģimeni',
+    serviceType: 'Ģimenes fotosesija',
   },
   {
     id: 't3',
-    text: 'PLACEHOLDER - atsauksme no para sesijas klienta.',
+    text: 'PLACEHOLDER - atsauksme no pāru sesijas klienta.',
     author: 'Linda un Roberts',
-    serviceType: 'Pau fotosesija',
+    serviceType: 'Pāru fotosesija',
   },
 ];

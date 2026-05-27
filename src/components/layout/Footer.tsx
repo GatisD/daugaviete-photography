@@ -36,7 +36,7 @@ export default function Footer() {
           <div>
             <h3 className="font-serif text-2xl mb-4">Daugaviete Photography</h3>
             <p className="text-sm opacity-70 leading-relaxed">
-              Mirkli, kas paliek. Gimenes, pari, portreti, kazas.
+              Mirkļi, kas paliek. Ģimenes, pāri, portreti, kāzas.
             </p>
           </div>
 
@@ -48,7 +48,7 @@ export default function Footer() {
                   to="/gimenu-fotosesijas"
                   className="hover:text-accent-gold transition-colors"
                 >
-                  Gimenu fotosesijas
+                  Ģimeņu fotosesijas
                 </Link>
               </li>
               <li>
@@ -56,7 +56,7 @@ export default function Footer() {
                   to="/paru-fotosesijas"
                   className="hover:text-accent-gold transition-colors"
                 >
-                  Paru fotosesijas
+                  Pāru fotosesijas
                 </Link>
               </li>
               <li>
@@ -72,7 +72,7 @@ export default function Footer() {
                   to="/kazu-fotografija"
                   className="hover:text-accent-gold transition-colors"
                 >
-                  Kazu fotografija
+                  Kāzu fotogrāfija
                 </Link>
               </li>
             </ul>
@@ -113,7 +113,7 @@ export default function Footer() {
 
         <div className="mt-16 pt-8 border-t border-white/10 text-xs opacity-50 flex flex-col md:flex-row justify-between gap-2">
           <span>2026 Daugaviete Photography</span>
-          <span>Izstradaja Gatis Daugavietis</span>
+          <span>Izstrādāja Gatis Daugavietis</span>
         </div>
       </div>
     </footer>

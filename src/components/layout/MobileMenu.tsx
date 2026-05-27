@@ -7,15 +7,15 @@ interface Props {
 }
 
 const allLinks = [
-  { to: '/', label: 'Sakums' },
+  { to: '/', label: 'Sākums' },
   { to: '/portfolio', label: 'Portfolio' },
-  { to: '/gimenu-fotosesijas', label: 'Gimenu fotosesijas' },
-  { to: '/paru-fotosesijas', label: 'Paru fotosesijas' },
+  { to: '/gimenu-fotosesijas', label: 'Ģimeņu fotosesijas' },
+  { to: '/paru-fotosesijas', label: 'Pāru fotosesijas' },
   { to: '/portretu-fotosesijas', label: 'Portretu fotosesijas' },
-  { to: '/kazu-fotografija', label: 'Kazu fotografija' },
+  { to: '/kazu-fotografija', label: 'Kāzu fotogrāfija' },
   { to: '/par-mani', label: 'Par mani' },
   { to: '/atsauksmes', label: 'Atsauksmes' },
-  { to: '/sazinaties', label: 'Sazinatīes' },
+  { to: '/sazinaties', label: 'Sazināties' },
 ];
 
 export default function MobileMenu({ open, onClose }: Props) {
@@ -25,7 +25,7 @@ export default function MobileMenu({ open, onClose }: Props) {
     <div className="fixed inset-0 z-50 bg-bg-primary flex flex-col">
       <div className="container-app flex items-center justify-between py-5 border-b border-border-subtle">
         <span className="font-serif text-2xl">Daugaviete Photography</span>
-        <button onClick={onClose} aria-label="Aizvērt izvelni">
+        <button onClick={onClose} aria-label="Aizvērt izvēlni">
           <X size={24} />
         </button>
       </div>

@@ -7,7 +7,7 @@ export default function Intro() {
         <ImageReveal>
           <p className="text-xs tracking-widest text-accent-gold mb-6">SVEICINĀTI</p>
           <h2 className="text-h2 font-serif font-light mb-8">
-            Es ticu, ka labākās bildes rodas, kad cilvēki aizmirst, ka tos filmē
+            Es ticu, ka labākās bildes rodas tad, kad cilvēki aizmirst, ka viņus fotografē
           </h2>
           <p className="text-text-secondary leading-relaxed">
             PLACEHOLDER - īss intro ~80 vārdu par sievas pieeju, filozofiju, ko klients var sagaidīt.

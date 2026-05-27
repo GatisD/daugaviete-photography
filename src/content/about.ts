@@ -12,11 +12,11 @@ Sadalīt 2-3 paragrāfos.`,
   values: [
     {
       title: 'Cilvēks, ne poza',
-      text: 'Labākās bildes rodas, kad jūs aizmirstat par kameru. Es nevadu pozas - es radu telpu, kur jūs varat būt īsti.',
+      text: 'Labākās bildes rodas tad, kad jūs aizmirstat par kameru. Es nevadu pozas - es radu telpu, kurā jūs varat būt īsti.',
     },
     {
       title: 'Gaisma kā stāstnieks',
-      text: 'Dabīga gaisma, mīkstas ēnas, vakara stundas zelta toņi - tas, kas padara bildi par mākslu.',
+      text: 'Dabīga gaisma, mīkstas ēnas, vakarstundas zelta toņi - tas, kas bildi padara par mākslu.',
     },
     {
       title: 'Mirkļi, kas paliek',

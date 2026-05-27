@@ -14,7 +14,7 @@ export default function Testimonials() {
       <section className="pt-12 pb-12 bg-bg-primary text-center">
         <div className="container-app">
           <p className="text-xs tracking-widest text-accent-gold mb-4">ATSAUKSMES</p>
-          <h1 className="text-h1 font-serif font-light">Klienti stasta</h1>
+          <h1 className="text-h1 font-serif font-light">Klienti stāsta</h1>
         </div>
       </section>
 

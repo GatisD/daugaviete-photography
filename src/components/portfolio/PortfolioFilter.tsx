@@ -9,10 +9,10 @@ interface Props {
 
 const options: { value: Filter; label: string }[] = [
   { value: 'all', label: 'Visi' },
-  { value: 'family', label: 'Gimenes' },
-  { value: 'couples', label: 'Pari' },
+  { value: 'family', label: 'Ģimenes' },
+  { value: 'couples', label: 'Pāri' },
   { value: 'portraits', label: 'Portreti' },
-  { value: 'weddings', label: 'Kazas' },
+  { value: 'weddings', label: 'Kāzas' },
 ];
 
 export default function PortfolioFilter({ active, onChange }: Props) {

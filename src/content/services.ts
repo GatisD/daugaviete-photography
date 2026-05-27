@@ -39,7 +39,7 @@ export const services: Service[] = [
     ],
     faq: [
       { question: 'Kāds apģērbs?', answer: 'Iesakām dabīgus toņus, kas saskan ar partneri. Sniegšu papildu ieteikumus pirms sesijas.' },
-      { question: 'Vai jāprot pozēt?', answer: 'Nē, virza visu sesijas laikā. Jūsu uzdevums ir tikai būt kopā.' },
+      { question: 'Vai jāprot pozēt?', answer: 'Nē, es virzu visu sesijas laikā. Jūsu uzdevums ir tikai būt kopā.' },
       { question: 'Cik ilgi gaidīt bildes?', answer: '2 nedēļas pēc sesijas dienas.' },
     ],
   },
@@ -51,19 +51,19 @@ export const services: Service[] = [
     description: 'PLACEHOLDER - sieva pievienos pirms launch.',
     process: [
       { title: 'Saruna', description: 'Vienojamies par mērķi - LinkedIn, mākslinieks, modelis, personīgi portreti.' },
-      { title: 'Sesija', description: '45-60 minūtes ar vairākiem light setups un kadru variantiem.' },
+      { title: 'Sesija', description: '45-60 minūtes ar vairākiem gaismas risinājumiem un kadru variantiem.' },
       { title: 'Bildes', description: '1-2 nedēļas pēc sesijas - 15-25 apstrādāti portreti.' },
     ],
     faq: [
-      { question: 'Vai der biznesa portreti?', answer: 'Jā - LinkedIn, CV, web profili - tieši šim mērķim labi piemērots.' },
-      { question: 'Vai studio vai āra?', answer: 'Abi varianti pieejami - apspriežam pirms sesijas.' },
+      { question: 'Vai der biznesa portretiem?', answer: 'Jā - LinkedIn, CV, web profili - tieši šim mērķim labi piemērots.' },
+      { question: 'Studijā vai ārā?', answer: 'Abi varianti pieejami - apspriežam pirms sesijas.' },
       { question: 'Vai varu paņemt vairākus apģērbus?', answer: 'Jā, 2-3 varianti ir lieliski.' },
     ],
   },
   {
     slug: 'kazu-fotografija',
     title: 'Kāzu fotogrāfija',
-    subtitle: 'Katrs skatiens. Katras asaras. Katrs smiels.',
+    subtitle: 'Katrs skatiens. Katra asara. Katrs smiekls.',
     image: '/images/weddings/01',
     description: 'PLACEHOLDER - sieva pievienos pirms launch.',
     process: [
