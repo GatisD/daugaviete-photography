@@ -1,4 +1,5 @@
 import Hero from '../components/sections/Hero';
+import ServicesGrid from '../components/sections/ServicesGrid';
 
 export default function Home() {
   return (
@@ -9,7 +10,7 @@ export default function Home() {
         tagline="Mirkļi, kas paliek"
         subtitle="Daugaviete Photography"
       />
-      {/* Below: Intro, ServicesGrid, PortfolioPreview, etc. added in next tasks */}
+      <ServicesGrid />
     </>
   );
 }
