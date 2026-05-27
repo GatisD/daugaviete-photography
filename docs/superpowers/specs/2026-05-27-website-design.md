@@ -32,8 +32,7 @@ Veidot fotogrāfa portfolio + booking mājaslapu sievai (Daugaviete Photography)
 | Styling | Tailwind CSS ar custom theme | Utility-first, custom Daugaviete tokens |
 | Animations | Framer Motion + Lenis | Premium foto niche budžets |
 | Routing | React Router | 9 lapas |
-| Forms | react-hook-form + zod | Tipa droša validācija |
-| Email | Resend API (vai mailto: fallback) | Kontaktforma uz sievas e-pastu |
+| Email/CTA | `mailto:` + `tel:` links | Bez formas - tiešas saites uz e-pastu/zvanu |
 | Hosting | Vercel | Free tier, auto-deploy no GitHub |
 | Repo | GitHub public | Standarts solo projektiem |
 
@@ -149,9 +148,15 @@ Google Fonts, self-hosted, `font-display: swap`.
 
 ```
 [Hero] Virsraksts "Sazināties"
-[Forma] Vārds, E-pasts, Tel, Sesijas tips (dropdown), Vēlamais datums, Ziņa, Submit
-[Kontakts info] E-pasts, Tel Nr., Instagram link, atrašanās vieta
+[Kontakts info - liels, centrēts]
+  - E-pasts (clickable mailto:) ar zelta hover
+  - Tel Nr. (clickable tel:) ar zelta hover
+  - Instagram @ link
+  - Atrašanās vieta (Rīga)
+[Tagline] "Raksti man, lai apspriestu Tavu sesijas ideju" - cilvēciska uzruna
 ```
+
+Bez formas - tikai e-pasts un tel kā galvenās CTA. Vēlāk var pievienot formu, ja vajadzēs.
 
 ### 4.10 Navigation
 
@@ -206,8 +211,8 @@ Google Fonts, self-hosted, `font-display: swap`.
 - Klients var swipot
 
 **Sazināties:**
-- Forma ar inline focus glow (zelta akcents)
-- Submit poga ar loading spinner → success checkmark
+- E-pasts un tel ar zelta underline animate-in hover
+- Magnetic hover uz CTA pogām
 
 ### 5.3 Veiktspējas budžets
 
@@ -294,8 +299,7 @@ Google Fonts, self-hosted, `font-display: swap`.
 - `tailwindcss` + `postcss` + `autoprefixer`
 - `framer-motion`
 - `@studio-freight/lenis`
-- `react-hook-form` + `zod` + `@hookform/resolvers`
-- `vite-plugin-ssg` vai `react-snap` (SSG)
+- `vite-plugin-ssg` (SSG)
 - `vite-plugin-sitemap`
 
 ---
@@ -315,7 +319,7 @@ Google Fonts, self-hosted, `font-display: swap`.
 
 ---
 
-## 10. Launch fāzes (8 fāzes, ~6-7 dienas)
+## 10. Launch fāzes (8 fāzes, ~5-6 dienas)
 
 | Fāze | Saturs | Laiks |
 |---|---|---|
@@ -323,7 +327,7 @@ Google Fonts, self-hosted, `font-display: swap`.
 | 2. Sākums + Par mani | Hero, portfolio preview, 4 pakalpojumu grid, atsauksmes preview, Par mani | 1 d |
 | 3. Pakalpojumu lapas (4x) | Template + 4 instance ar saturu | 1 d |
 | 4. Portfolio + Atsauksmes | Masonry + lightbox + filtri, atsauksmes lapa | 1 d |
-| 5. Sazināties | Forma + validācija + Resend email integration | 0.5 d |
+| 5. Sazināties | Kontakta lapa ar mailto:/tel: CTA + magnetic hover | 0.25 d |
 | 6. Animācijas + polish | Lenis, image reveals, page transitions, magnetic CTAs, mobile finetune | 1 d |
 | 7. SEO + perf + a11y + WebAudit | Schema, meta, sitemap, Lighthouse 95+, WCAG AA check | 0.5 d |
 | 8. Launch | Vercel deploy, domain connect, GA4 setup, Search Console | 0.5 d |
@@ -344,8 +348,7 @@ Google Fonts, self-hosted, `font-display: swap`.
 1. **Drive piekļuve bildēm** - šobrīd "request access". Vajag pirms 1. fāzes.
 2. **Sievas saturs** (Par mani, pakalpojumu apraksti, atsauksmes) - var sākt foundation fāzes bez tā, bet pakalpojumu lapas vajag pirms 3. fāzes.
 3. **Logo statuss** - vai sievai jau ir, vai Gatis veido serif wordmark.
-4. **Resend API account** - vajag account vai izmantojam mailto: fallback.
-5. **GA4 setup** - jauns property vai esošs?
+4. **GA4 setup** - jauns property vai esošs?
 
 ---
 
