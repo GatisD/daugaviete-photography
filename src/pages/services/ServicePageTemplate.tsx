@@ -5,6 +5,8 @@ import ServiceProcess from '../../components/sections/ServiceProcess';
 import ServiceFAQ from '../../components/sections/ServiceFAQ';
 import { portfolio } from '../../content/portfolio';
 import type { Service } from '../../content/services';
+import SEO from '../../components/ui/SEO';
+import { serviceSchema } from '../../lib/schema';
 
 interface Props {
   service: Service;
@@ -22,6 +24,12 @@ export default function ServicePageTemplate({ service }: Props) {
 
   return (
     <>
+      <SEO
+        title={service.title}
+        description={`${service.title} Latvijā - ${service.subtitle}. Daugaviete Photography.`}
+        path={`/${service.slug}`}
+        jsonLd={serviceSchema(service.title, service.description, service.slug)}
+      />
       <section className="relative h-[70vh] overflow-hidden -mt-20">
         <div className="absolute inset-0">
           <Image

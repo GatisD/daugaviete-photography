@@ -1,10 +1,16 @@
 import Button from '../components/ui/Button';
 import ImageReveal from '../components/animations/ImageReveal';
 import { testimonials } from '../content/testimonials';
+import SEO from '../components/ui/SEO';
 
 export default function Testimonials() {
   return (
     <>
+      <SEO
+        title="Klientu atsauksmes"
+        description="Lasi, ko Daugaviete Photography klienti stāsta par sadarbību - ģimenes, pāri, kāzu klienti."
+        path="/atsauksmes"
+      />
       <section className="pt-12 pb-12 bg-bg-primary text-center">
         <div className="container-app">
           <p className="text-xs tracking-widest text-accent-gold mb-4">ATSAUKSMES</p>

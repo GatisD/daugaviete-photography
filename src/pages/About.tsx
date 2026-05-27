@@ -2,10 +2,16 @@ import Image from '../components/ui/Image';
 import Button from '../components/ui/Button';
 import ImageReveal from '../components/animations/ImageReveal';
 import { about } from '../content/about';
+import SEO from '../components/ui/SEO';
 
 export default function About() {
   return (
     <>
+      <SEO
+        title="Par fotogrāfu"
+        description="Iepazīsti Daugaviete Photography fotogrāfu - kas viņa ir, kā strādā, kāpēc tieši šis fotogrāfs."
+        path="/par-mani"
+      />
       <section className="pt-32 pb-16 bg-bg-primary">
         <div className="container-app text-center">
           <h1 className="text-h1 font-serif font-light">{about.hero.title}</h1>

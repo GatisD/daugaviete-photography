@@ -3,6 +3,7 @@ import PortfolioFilter from '../components/portfolio/PortfolioFilter';
 import MasonryGrid from '../components/portfolio/MasonryGrid';
 import Lightbox from '../components/portfolio/Lightbox';
 import { portfolio, type Category } from '../content/portfolio';
+import SEO from '../components/ui/SEO';
 
 type Filter = Category | 'all';
 
@@ -17,6 +18,11 @@ export default function Portfolio() {
 
   return (
     <>
+      <SEO
+        title="Portfolio - foto galerija"
+        description="Daugaviete Photography portfolio - ģimeņu, pāru, portretu un kāzu fotogrāfija."
+        path="/portfolio"
+      />
       <section className="pt-12 pb-12 bg-bg-primary text-center">
         <div className="container-app">
           <p className="text-xs tracking-widest text-accent-gold mb-4">PORTFOLIO</p>
