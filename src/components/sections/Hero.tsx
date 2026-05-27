@@ -2,6 +2,7 @@ import { motion, useScroll, useTransform } from 'framer-motion';
 import { useRef } from 'react';
 import Image from '../ui/Image';
 import CharReveal from '../animations/CharReveal';
+import { useReducedMotion } from '../../lib/useReducedMotion';
 
 interface HeroProps {
   imageSrc: string;
@@ -13,8 +14,9 @@ interface HeroProps {
 export default function Hero({ imageSrc, imageAlt, tagline, subtitle }: HeroProps) {
   const ref = useRef<HTMLDivElement>(null);
   const { scrollYProgress } = useScroll({ target: ref, offset: ['start start', 'end start'] });
-  const scale = useTransform(scrollYProgress, [0, 1], [1, 1.15]);
-  const y = useTransform(scrollYProgress, [0, 1], ['0%', '20%']);
+  const reduced = useReducedMotion();
+  const scale = useTransform(scrollYProgress, [0, 1], reduced ? [1, 1] : [1, 1.15]);
+  const y = useTransform(scrollYProgress, [0, 1], reduced ? ['0%', '0%'] : ['0%', '20%']);
 
   return (
     <section ref={ref} className="relative h-screen overflow-hidden -mt-20">
