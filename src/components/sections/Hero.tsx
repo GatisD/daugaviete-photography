@@ -21,7 +21,7 @@ export default function Hero({ imageSrc, imageAlt, tagline, subtitle }: HeroProp
   return (
     <section ref={ref} className="relative h-screen overflow-hidden -mt-20">
       <motion.div style={{ scale, y }} className="absolute inset-0">
-        <Image src={imageSrc} alt={imageAlt} loading="eager" fill objectPosition="center 75%" className="w-full h-full block" />
+        <Image src={imageSrc} alt={imageAlt} loading="eager" fill objectPosition="center 60%" className="w-full h-full block" />
         <div className="absolute inset-0 bg-black/30" />
       </motion.div>
 
