@@ -10,7 +10,7 @@ export default function Layout() {
   return (
     <LenisProvider>
       <Header />
-      <main>
+      <main className="pt-20">
         <AnimatePresence mode="wait">
           <PageTransition key={location.pathname}>
             <Outlet />

@@ -35,10 +35,12 @@ export default function Header() {
     return () => window.removeEventListener('scroll', onScroll);
   }, []);
 
+  // Always solid background until Hero component (Task 2.3) sets transparent-over-hero state.
+  // Avoids invisible white-on-white menu before hero exists.
   const headerBg =
-    isHome && !scrolled
-      ? 'bg-transparent text-white'
-      : 'bg-bg-primary/95 backdrop-blur-sm text-text-primary border-b border-border-subtle';
+    'bg-bg-primary/95 backdrop-blur-sm text-text-primary border-b border-border-subtle';
+  void isHome;
+  void scrolled;
 
   return (
     <>
