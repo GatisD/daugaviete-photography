@@ -11,7 +11,7 @@ export interface Service {
 export const services: Service[] = [
   {
     slug: 'gimenu-fotosesijas',
-    title: 'Gimeņu fotosesijas',
+    title: 'Ģimeņu fotosesijas',
     subtitle: 'Mirkļi, ko jūsu bērni kādreiz rādīs saviem bērniem',
     image: '/images/family/cover',
     description: 'PLACEHOLDER - sieva pievienos pirms launch. ~200-300 vārdi par to, kā sesija norit, atmosfēra, ieteikumi ģimenēm.',
