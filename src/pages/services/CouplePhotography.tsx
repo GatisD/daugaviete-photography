@@ -1,7 +1,7 @@
+import ServicePageTemplate from './ServicePageTemplate';
+import { services } from '../../content/services';
+
 export default function CouplePhotography() {
-  return (
-    <div className="container-app py-22">
-      <h1 className="text-h1">Paru fotosesijas</h1>
-    </div>
-  );
+  const service = services.find((s) => s.slug === 'paru-fotosesijas')!;
+  return <ServicePageTemplate service={service} />;
 }

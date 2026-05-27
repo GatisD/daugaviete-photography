@@ -1,7 +1,7 @@
+import ServicePageTemplate from './ServicePageTemplate';
+import { services } from '../../content/services';
+
 export default function WeddingPhotography() {
-  return (
-    <div className="container-app py-22">
-      <h1 className="text-h1">Kazu fotografija</h1>
-    </div>
-  );
+  const service = services.find((s) => s.slug === 'kazu-fotografija')!;
+  return <ServicePageTemplate service={service} />;
 }
