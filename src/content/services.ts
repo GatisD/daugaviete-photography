@@ -13,7 +13,7 @@ export const services: Service[] = [
     slug: 'gimenu-fotosesijas',
     title: 'Ģimeņu fotosesijas',
     subtitle: 'Mirkļi, ko jūsu bērni kādreiz rādīs saviem bērniem',
-    image: '/images/family/cover',
+    image: '/images/family/01',
     description: 'PLACEHOLDER - sieva pievienos pirms launch. ~200-300 vārdi par to, kā sesija norit, atmosfēra, ieteikumi ģimenēm.',
     process: [
       { title: 'Saruna', description: 'Sākam ar īsu sarunu - kāda ir jūsu ģimene, kas ir svarīgi, kur vēlamies fotografēties.' },
@@ -30,7 +30,7 @@ export const services: Service[] = [
     slug: 'paru-fotosesijas',
     title: 'Pāru fotosesijas',
     subtitle: 'Jūsu stāsts - tā, kā tas jūtas',
-    image: '/images/couples/cover',
+    image: '/images/couples/01',
     description: 'PLACEHOLDER - sieva pievienos pirms launch.',
     process: [
       { title: 'Saruna', description: 'Iepazīstamies, runājam par jūsu attiecībām un vietām, kas jums ir nozīmīgas.' },
@@ -47,7 +47,7 @@ export const services: Service[] = [
     slug: 'portretu-fotosesijas',
     title: 'Portretu fotosesijas',
     subtitle: 'Tu. Tava gaisma. Tavs labākais kadrs.',
-    image: '/images/portraits/cover',
+    image: '/images/portraits/01',
     description: 'PLACEHOLDER - sieva pievienos pirms launch.',
     process: [
       { title: 'Saruna', description: 'Vienojamies par mērķi - LinkedIn, mākslinieks, modelis, personīgi portreti.' },
@@ -64,7 +64,7 @@ export const services: Service[] = [
     slug: 'kazu-fotografija',
     title: 'Kāzu fotogrāfija',
     subtitle: 'Katrs skatiens. Katras asaras. Katrs smiels.',
-    image: '/images/weddings/cover',
+    image: '/images/weddings/01',
     description: 'PLACEHOLDER - sieva pievienos pirms launch.',
     process: [
       { title: 'Saruna', description: 'Tiekamies klātienē vai zvans - apspriežam jūsu kāzu plānus un manu lomu tajā.' },
