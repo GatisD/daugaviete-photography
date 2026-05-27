@@ -16,7 +16,7 @@ export default function MasonryGrid({ images, onClick }: Props) {
             <button
               onClick={() => onClick(img, i)}
               className="block w-full overflow-hidden group cursor-zoom-in"
-              aria-label={`Atvert: ${img.alt}`}
+              aria-label={`Atvērt: ${img.alt}`}
             >
               <Image
                 src={img.src}

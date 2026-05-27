@@ -43,7 +43,7 @@ export default function Lightbox({ images, currentIndex, onClose, onPrev, onNext
           <button
             onClick={(e) => { e.stopPropagation(); onClose(); }}
             className="absolute top-6 right-6 text-white hover:text-accent-gold transition-colors"
-            aria-label="Aizverts"
+            aria-label="Aizvērt"
           >
             <X size={32} />
           </button>
@@ -51,7 +51,7 @@ export default function Lightbox({ images, currentIndex, onClose, onPrev, onNext
           <button
             onClick={(e) => { e.stopPropagation(); onPrev(); }}
             className="absolute left-6 text-white hover:text-accent-gold transition-colors"
-            aria-label="Ieprieksheja"
+            aria-label="Iepriekšējā"
           >
             <ChevronLeft size={48} />
           </button>
@@ -70,7 +70,7 @@ export default function Lightbox({ images, currentIndex, onClose, onPrev, onNext
           <button
             onClick={(e) => { e.stopPropagation(); onNext(); }}
             className="absolute right-6 text-white hover:text-accent-gold transition-colors"
-            aria-label="Nakama"
+            aria-label="Nākamā"
           >
             <ChevronRight size={48} />
           </button>
